@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #126d19;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+/* Cores diferentes por faixa de IMC */
+.resultado.magro {
+    background-color: #add8e6;
+    color: #003366;
+}
+
+.resultado.normal {
+    background-color: #90ee90;
+    color: #064d00;
+}
+
+.resultado.sobrepeso {
+    background-color: #ffd580;
+    color: #805500;
+}
+
+.resultado.obeso {
+    background-color: #f08080;
+    color: #800000;
+}
